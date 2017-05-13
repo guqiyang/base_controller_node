@@ -32,7 +32,3 @@ add_dependencies(base_controller ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EX
 target_link_libraries(base_controller
   ${catkin_LIBRARIES}
 )
-
-install(PROGRAMS
-  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-)
